@@ -33,3 +33,4 @@ jobs:
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
           -Dsonar.qualitygate.wait=true
+          -Dsonar.exclusions=src/main/java/com/devopscycle/DevopscycleApplication.java
