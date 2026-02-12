@@ -1,1 +1,1 @@
-# spring-boot-ci-cd
+# devops-cycle-project
